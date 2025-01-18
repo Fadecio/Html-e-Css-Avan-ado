@@ -1,0 +1,54 @@
+@media(max-width: 1366px) {
+
+    body {
+
+        background: url('../images/bg-mobile.svg') no-repeat center center;
+        background-size: cover;
+        background-color: var(--Violeta);
+        max-width: 100%;
+        max-height: auto;
+
+    }
+
+    header {
+        height: 5rem;
+        margin: 0;
+    }
+
+    .cabecalho .logo {
+        height: 50%;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .image .layout {
+        width: 100%;
+        height: auto;
+    }
+
+    .container .text-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container .text-container h1 {
+        font-size: 2rem;
+    }
+
+    .container .text-container p {
+        font-size: 1.5rem;
+    }
+
+    footer div.redes-sociais {
+        justify-content: center;
+    }
+}
