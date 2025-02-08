@@ -1,12 +1,12 @@
-@media(max-width: 1366px) {
+@media(max-width: 900px) {
 
     body {
 
-        background: url('../images/bg-mobile.svg') no-repeat center center;
+        background: url('../images/bg-mobile.svg') no-repeat center;
         background-size: cover;
         background-color: var(--Violeta);
         max-width: 100%;
-        max-height: auto;
+        height: 320px;
 
     }
 
@@ -33,7 +33,7 @@
     }
 
     .container .text-container {
-        width: 100%;
+        max-width: 100%;
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -48,7 +48,8 @@
         font-size: 1.5rem;
     }
 
-    footer div.redes-sociais {
+    footer nav.redes-sociais {
         justify-content: center;
+        align-items: center;
     }
 }
